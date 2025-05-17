@@ -360,16 +360,16 @@ _G.Settings = {
 };
 (getgenv()).Load = function()
 	if readfile and writefile and isfile and isfolder then
-		if not isfolder("RyzenHub") then
-			makefolder("RyzenHub");
+		if not isfolder("NoxHub") then
+			makefolder("NoxHub");
 		end;
-		if not isfolder("RyzenHub/Blox Fruits/") then
-			makefolder("RyzenHub/Blox Fruits/");
+		if not isfolder("NoxHub/Blox Fruits/") then
+			makefolder("NoxHub/Blox Fruits/");
 		end;
-		if not isfile(("RyzenHub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json")) then
-			writefile("RyzenHub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json", (game:GetService("HttpService")):JSONEncode(_G.Settings));
+		if not isfile(("NoxHub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json")) then
+			writefile("NoxHub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json", (game:GetService("HttpService")):JSONEncode(_G.Settings));
 		else
-			local Decode = (game:GetService("HttpService")):JSONDecode(readfile("RyzenHub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json"));
+			local Decode = (game:GetService("HttpService")):JSONDecode(readfile("NocHub/Blox Fruits/" .. game.Players.LocalPlayer.Name .. ".json"));
 			for i, v in pairs(Decode) do
 				_G.Settings[i] = v;
 			end;
@@ -535,4 +535,4 @@ function CheckQuest()
 			LevelQuest = 2;
 			NameQuest = "MagmaQuest";
 			NameMon = "Military Spy";
-			CFrameQuest = CFrame.new(-5313.37012, 
+			CFrameQuest = CFrame.new(-5313.37012, 10.9500084, 85
