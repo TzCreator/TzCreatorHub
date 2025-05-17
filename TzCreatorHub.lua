@@ -1,5 +1,5 @@
 -- local function scary()
---     warn("❌ This script must only be executed from the offical RyzenHub loader")
+--     warn("❌ This script must only be executed from the offical NoxHub loader")
 --         return
 --     end
 
@@ -535,4 +535,4 @@ function CheckQuest()
 			LevelQuest = 2;
 			NameQuest = "MagmaQuest";
 			NameMon = "Military Spy";
-			CFrameQuest = CFrame.new(-5313.37012, 10.9500084, 85
+			CFrameQuest = CFrame.new(-5313.37012, 10.9500084, 8515
