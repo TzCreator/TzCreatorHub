@@ -1,4 +1,60 @@
-loadstring(Game:HttpGet("https://you.whimper.xyz/sources/nox/data/fruitsource.lua")))();
+-- local function scary()
+--     warn("❌ This script must only be executed from the offical NoxHub loader")
+--         return
+--     end
+
+-- local HttpService = game:GetService("HttpService")
+-- local SECRET_KEY = "YourSecretSecondaryToken" 
+-- local function simpleHMAC(input, key)
+--     return HttpService:UrlEncode(input .. key)
+-- end
+-- if not _G._secondaryData or
+--    not _G._secondaryData.nonce or 
+--    not _G._secondaryData.timestamp or 
+--    not _G._secondaryData.signature or 
+--    not _G._secondaryData.userKey or 
+--    not _G.__userKey then
+--     print("❌ Security verification failed: missing token data or user key.")
+--     scary()
+--     return
+-- end
+-- if _G._secondaryData.userKey ~= _G.__userKey then
+--     print("❌ Security verification failed: user key mismatch.")
+--     return
+-- end
+-- local tokenData = _G._secondaryData.nonce .. ":" .. _G._secondaryData.timestamp .. ":" .. _G.__userKey
+-- local expectedSignature = simpleHMAC(tokenData, SECRET_KEY)
+-- if expectedSignature ~= _G._secondaryData.signature then
+--     print("❌ Security verification failed: token signature mismatch.")
+--     return
+-- end
+-- local allowedTimeWindow = 300  -- seconds
+-- local currentTime = os.time()
+-- if math.abs(currentTime - tonumber(_G._secondaryData.timestamp)) > allowedTimeWindow then
+--     print("❌ Security verification failed: token expired.")
+--     return
+-- end
+-- _G._secondaryData = nil
+-- _G.__userKey = nil
+print("✅ Security verification passed. Loading NoxHub...")
+if game.PlaceId == 2753915549 then
+	World1 = true;
+elseif game.PlaceId == 4442272183 then
+	World2 = true;
+elseif game.PlaceId == 7449423635 then
+	World3 = true;
+end;
+-- print("--------------------------------------------------------------------------");
+-- print("-- [[ Webhook ]] --");
+-- (loadstring(game:HttpGet("https://gitshare.me/backend/api/files/677ec71a-082b-4b8c-a1e8-f590f2ab286a/download")))();
+-- print("--------------------------------------------------------------------------");
+local Update = (loadstring(Game:HttpGet("https://raw.githubusercontent.com/TzCreator/TzCreatorHub/refs/heads/main/TzWitter.lua")))();
+if Update:LoadAnimation() then
+	Update:StartLoad();
+end;
+if Update:LoadAnimation() then
+	Update:Loaded();
+end;
 local Library = Update:Window({
     Title = "Ryzen Hub",
 	SubTitle = "Blox Fruits",
@@ -305,7 +361,7 @@ _G.Settings = {
 };
 (getgenv()).Load = function()
 	if readfile and writefile and isfile and isfolder then
-		if not isfolder("NoxHub") then
+		if not isfolder("noxhub") then
 			makefolder("NoxHub");
 		end;
 		if not isfolder("NoxHub/Blox Fruits/") then
