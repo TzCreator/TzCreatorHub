@@ -226,7 +226,7 @@ local Window = Libary:MakeWindow({
     Flags = "TeryousHub_Broookhaven"
 })
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://88948106094310", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://10511856020", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(35, 1) },
 })
 
@@ -235,9 +235,9 @@ local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://1530913847
 
 
 InfoTab:AddSection({ "Informações do Script" })
-InfoTab:AddParagraph({ "Owner / Developer:", "Luscaa and veno." })
+InfoTab:AddParagraph({ "Owner / Developer:", "Tz Wizzer and SBD." })
 InfoTab:AddParagraph({ "Colaborações:", "Blue, sukuna, Magekko, Darkness, Star, Toddy" })
-InfoTab:AddParagraph({ "Você está usando:", "Chaos Hub Brookhaven " })
+InfoTab:AddParagraph({ "Você está usando:", "Teryous Hub Brookhaven " })
 InfoTab:AddParagraph({"Your executor:", executor})
 
 InfoTab:AddSection({ "Rejoin" })
