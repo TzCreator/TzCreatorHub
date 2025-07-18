@@ -4,10 +4,10 @@ local Libary = loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao14
 workspace.FallenPartsDestroyHeight = -math.huge
 
 local Window = Libary:MakeWindow({
-    Title = "Teryous Hub | Brookhaven RP ",
-    SubTitle = "by: Tz Wizzer",
-    LoadText = "Carregando Teryous Hub",
-    Flags = "TeryousHub_Broookhaven"
+    Title = "Chaos Hub | Brookhaven RP ",
+    SubTitle = "by: Luscaa and venom",
+    LoadText = "Carregando Chaos Hub",
+    Flags = "ChaosHub_Broookhaven"
 })
 Window:AddMinimizeButton({
     Button = { Image = "rbxassetid://131669852271916", BackgroundTransparency = 0 },
