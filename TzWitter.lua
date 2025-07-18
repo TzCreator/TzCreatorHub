@@ -226,7 +226,7 @@ local Window = Libary:MakeWindow({
     Flags = "TeryousHub_Broookhaven"
 })
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://131669852271916", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://88948106094310", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(35, 1) },
 })
 
