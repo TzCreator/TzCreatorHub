@@ -421,7 +421,7 @@ function Update:Window(Config)
 	ResizeButton.AnchorPoint = Vector2.new(1, 0.5);
 	ResizeButton.Position = UDim2.new(1, -50, 0.5, 0);
 	ResizeButton.Size = UDim2.new(0, 20, 0, 20);
-	ResizeButton.Image = "rbxassetid://10734886735";
+	ResizeButton.Image = "rbxassetid://8964489619";
 	ResizeButton.ImageTransparency = 0;
 	ResizeButton.ImageColor3 = Color3.fromRGB(245, 245, 245);
 	CreateRounded(ResizeButton, 3);
@@ -455,7 +455,7 @@ function Update:Window(Config)
 	CloseSettings.AnchorPoint = Vector2.new(1, 0);
 	CloseSettings.Position = UDim2.new(1, -20, 0, 15);
 	CloseSettings.Size = UDim2.new(0, 20, 0, 20);
-	CloseSettings.Image = "rbxassetid://10747384394";
+	CloseSettings.Image = "rbxassetid://8964489619";
 	CloseSettings.ImageTransparency = 0;
 	CloseSettings.ImageColor3 = Color3.fromRGB(245, 245, 245);
 	CreateRounded(CloseSettings, 3);
@@ -470,7 +470,7 @@ function Update:Window(Config)
 	SettingsButton.AnchorPoint = Vector2.new(1, 0.5);
 	SettingsButton.Position = UDim2.new(1, -85, 0.5, 0);
 	SettingsButton.Size = UDim2.new(0, 20, 0, 20);
-	SettingsButton.Image = "rbxassetid://10734950020";
+	SettingsButton.Image = "rbxassetid://8964489619";
 	SettingsButton.ImageTransparency = 0;
 	SettingsButton.ImageColor3 = Color3.fromRGB(245, 245, 245);
 	CreateRounded(SettingsButton, 3);
