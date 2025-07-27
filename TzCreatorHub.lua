@@ -48,7 +48,7 @@ end;
 -- print("-- [[ Webhook ]] --");
 -- (loadstring(game:HttpGet("https://gitshare.me/backend/api/files/677ec71a-082b-4b8c-a1e8-f590f2ab286a/download")))();
 -- print("--------------------------------------------------------------------------");
-local Update = (loadstring(Game:HttpGet("https://raw.githubusercontent.com/TzCreator/TzCreatorHub/refs/heads/main/TzWitter.lua")))();
+local Update = (loadstring(Game:HttpGet("https://raw.githubusercontent.com/TzCreator/TzCreatorHub/refs/heads/main/Teryous.lua")))();
 if Update:LoadAnimation() then
 	Update:StartLoad();
 end;
@@ -56,7 +56,7 @@ if Update:LoadAnimation() then
 	Update:Loaded();
 end;
 local Library = Update:Window({
-    Title = "Ryzen Hub",
+    Title = "Teryous Hub",
 	SubTitle = "Blox Fruits",
 	Size = UDim2.new(0, 450, 0, 300),
 	TabWidth = 140
@@ -361,7 +361,7 @@ _G.Settings = {
 };
 (getgenv()).Load = function()
 	if readfile and writefile and isfile and isfolder then
-		if not isfolder("noxhub") then
+		if not isfolder("NoxHub") then
 			makefolder("NoxHub");
 		end;
 		if not isfolder("NoxHub/Blox Fruits/") then
