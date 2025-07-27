@@ -56,7 +56,7 @@ if Update:LoadAnimation() then
 	Update:Loaded();
 end;
 local Library = Update:Window({
-    Title = "Teryous Hub",
+        Title = "Teryous Hub",
 	SubTitle = "Blox Fruits",
 	Size = UDim2.new(0, 450, 0, 300),
 	TabWidth = 140
