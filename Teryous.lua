@@ -127,7 +127,7 @@ function Update:Notify(desc)
 	Image.BackgroundTransparency = 1;
 	Image.Position = UDim2.new(0, 8, 0, 8);
 	Image.Size = UDim2.new(0, 45, 0, 45);
-	Image.Image = "rbxassetid://8964489619";
+	Image.Image = "rbxassetid://13940080072";
 	Title.Parent = Frame;
 	Title.BackgroundColor3 = _G.Primary;
 	Title.BackgroundTransparency = 1;
@@ -184,7 +184,7 @@ function Update:StartLoad()
 	MainLoaderFrame.BorderSizePixel = 0;
 	local TitleLoader = Instance.new("TextLabel");
 	TitleLoader.Parent = MainLoaderFrame;
-	TitleLoader.Text = "Teryous Hub";
+	TitleLoader.Text = "Teryous Hub EXECUTED";
 	TitleLoader.Font = Enum.Font.FredokaOne;
 	TitleLoader.TextSize = 50;
 	TitleLoader.TextColor3 = Color3.fromRGB(255, 255, 255);
@@ -406,7 +406,7 @@ function Update:Window(Config)
 	CloseButton.AnchorPoint = Vector2.new(1, 0.5);
 	CloseButton.Position = UDim2.new(1, -15, 0.5, 0);
 	CloseButton.Size = UDim2.new(0, 20, 0, 20);
-	CloseButton.Image = "rbxassetid://8964489619";
+	CloseButton.Image = "rbxassetid://7743878857";
 	CloseButton.ImageTransparency = 0;
 	CloseButton.ImageColor3 = Color3.fromRGB(245, 245, 245);
 	CreateRounded(CloseButton, 3);
@@ -421,7 +421,7 @@ function Update:Window(Config)
 	ResizeButton.AnchorPoint = Vector2.new(1, 0.5);
 	ResizeButton.Position = UDim2.new(1, -50, 0.5, 0);
 	ResizeButton.Size = UDim2.new(0, 20, 0, 20);
-	ResizeButton.Image = "rbxassetid://8964489619";
+	ResizeButton.Image = "rbxassetid://10734886735";
 	ResizeButton.ImageTransparency = 0;
 	ResizeButton.ImageColor3 = Color3.fromRGB(245, 245, 245);
 	CreateRounded(ResizeButton, 3);
@@ -470,7 +470,7 @@ function Update:Window(Config)
 	SettingsButton.AnchorPoint = Vector2.new(1, 0.5);
 	SettingsButton.Position = UDim2.new(1, -85, 0.5, 0);
 	SettingsButton.Size = UDim2.new(0, 20, 0, 20);
-	SettingsButton.Image = "rbxassetid://8964489619";
+	SettingsButton.Image = "rbxassetid://10734950020";
 	SettingsButton.ImageTransparency = 0;
 	SettingsButton.ImageColor3 = Color3.fromRGB(245, 245, 245);
 	CreateRounded(SettingsButton, 3);
@@ -549,7 +549,7 @@ function Update:Window(Config)
 		Checkbox.AnchorPoint = Vector2.new(0, 0.5);
 		Checkbox.Position = UDim2.new(0, 30, 0.5, 0);
 		Checkbox.Size = UDim2.new(0, 20, 0, 20);
-		Checkbox.Image = "rbxassetid://8964489619";
+		Checkbox.Image = "rbxassetid://10709790644";
 		Checkbox.ImageTransparency = 1;
 		Checkbox.ImageColor3 = Color3.fromRGB(245, 245, 245);
 		CreateRounded(Checkbox, 5);
@@ -885,7 +885,7 @@ function Update:Window(Config)
 			ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5);
 			ImageLabel.Position = UDim2.new(0.5, 0, 0.5, 0);
 			ImageLabel.Size = UDim2.new(0, 15, 0, 15);
-			ImageLabel.Image = "rbxassetid://8964489619";
+			ImageLabel.Image = "rbxassetid://10734898355";
 			ImageLabel.ImageTransparency = 0;
 			ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255);
 			CreateRounded(TextButton, 4);
@@ -1112,7 +1112,7 @@ function Update:Window(Config)
 			ArrowDown.AnchorPoint = Vector2.new(1, 0);
 			ArrowDown.Position = UDim2.new(1, -110, 0, 10);
 			ArrowDown.Size = UDim2.new(0, 20, 0, 20);
-			ArrowDown.Image = "rbxassetid://8964489619";
+			ArrowDown.Image = "rbxassetid://10709790948";
 			ArrowDown.ImageTransparency = 0;
 			ArrowDown.ImageColor3 = Color3.fromRGB(255, 255, 255);
 			CreateRounded(SelectItems, 5);
