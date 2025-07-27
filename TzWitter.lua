@@ -4333,7 +4333,7 @@ local audios = {
     {Name = "Meme do Pânico", ID = 3109857885},
     Name = "Sou Lindão", ID = 3486081673},
     {Name = "Eu Vou Gritar", ID = 1215202314}
-}
+})
 
 local selectedAudioID
 
