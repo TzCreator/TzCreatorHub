@@ -329,8 +329,8 @@ function Update:Window(Config)
 	OutlineMain.Parent = NoxHub;
 	OutlineMain.ClipsDescendants = true;
 	OutlineMain.AnchorPoint = Vector2.new(0.5, 0.5);
-	OutlineMain.BackgroundColor3 = Color3.fromRGB(30, 30, 30);
-	OutlineMain.BackgroundTransparency = 0.4;
+	OutlineMain.BackgroundColor3 = Color3.fromRGB(10, 40, 180);
+	OutlineMain.BackgroundTransparency = 1.5;
 	OutlineMain.Position = UDim2.new(0.5, 0, 0.45, 0);
 	OutlineMain.Size = UDim2.new(0, 0, 0, 0);
 	CreateRounded(OutlineMain, 15);
