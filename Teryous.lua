@@ -885,7 +885,7 @@ function Update:Window(Config)
 			ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5);
 			ImageLabel.Position = UDim2.new(0.5, 0, 0.5, 0);
 			ImageLabel.Size = UDim2.new(0, 15, 0, 15);
-			ImageLabel.Image = "rbxassetid://10734898355";
+			ImageLabel.Image = "rbxassetid://8964489619";
 			ImageLabel.ImageTransparency = 0;
 			ImageLabel.ImageColor3 = Color3.fromRGB(255, 255, 255);
 			CreateRounded(TextButton, 4);
