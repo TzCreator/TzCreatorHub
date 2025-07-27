@@ -70,7 +70,7 @@ ImageButton.BackgroundColor3 = _G.Dark;
 ImageButton.ImageColor3 = Color3.fromRGB(250, 250, 250);
 ImageButton.ImageTransparency = 0;
 ImageButton.BackgroundTransparency = 0;
-ImageButton.Image = "rbxassetid://13940080072";
+ImageButton.Image = "rbxassetid://8964489619";
 ImageButton.AutoButtonColor = false;
 MakeDraggable(ImageButton, OutlineButton);
 CreateRounded(ImageButton, 10);
@@ -127,7 +127,7 @@ function Update:Notify(desc)
 	Image.BackgroundTransparency = 1;
 	Image.Position = UDim2.new(0, 8, 0, 8);
 	Image.Size = UDim2.new(0, 45, 0, 45);
-	Image.Image = "rbxassetid://13940080072";
+	Image.Image = "rbxassetid://8964489619";
 	Title.Parent = Frame;
 	Title.BackgroundColor3 = _G.Primary;
 	Title.BackgroundTransparency = 1;
@@ -184,7 +184,7 @@ function Update:StartLoad()
 	MainLoaderFrame.BorderSizePixel = 0;
 	local TitleLoader = Instance.new("TextLabel");
 	TitleLoader.Parent = MainLoaderFrame;
-	TitleLoader.Text = "NoxHub";
+	TitleLoader.Text = "Teryous Hub";
 	TitleLoader.Font = Enum.Font.FredokaOne;
 	TitleLoader.TextSize = 50;
 	TitleLoader.TextColor3 = Color3.fromRGB(255, 255, 255);
@@ -421,7 +421,7 @@ function Update:Window(Config)
 	ResizeButton.AnchorPoint = Vector2.new(1, 0.5);
 	ResizeButton.Position = UDim2.new(1, -50, 0.5, 0);
 	ResizeButton.Size = UDim2.new(0, 20, 0, 20);
-	ResizeButton.Image = "rbxassetid://10734886735";
+	ResizeButton.Image = "rbxassetid://8964489619";
 	ResizeButton.ImageTransparency = 0;
 	ResizeButton.ImageColor3 = Color3.fromRGB(245, 245, 245);
 	CreateRounded(ResizeButton, 3);
@@ -470,7 +470,7 @@ function Update:Window(Config)
 	SettingsButton.AnchorPoint = Vector2.new(1, 0.5);
 	SettingsButton.Position = UDim2.new(1, -85, 0.5, 0);
 	SettingsButton.Size = UDim2.new(0, 20, 0, 20);
-	SettingsButton.Image = "rbxassetid://10734950020";
+	SettingsButton.Image = "rbxassetid://8964489619";
 	SettingsButton.ImageTransparency = 0;
 	SettingsButton.ImageColor3 = Color3.fromRGB(245, 245, 245);
 	CreateRounded(SettingsButton, 3);
@@ -549,7 +549,7 @@ function Update:Window(Config)
 		Checkbox.AnchorPoint = Vector2.new(0, 0.5);
 		Checkbox.Position = UDim2.new(0, 30, 0.5, 0);
 		Checkbox.Size = UDim2.new(0, 20, 0, 20);
-		Checkbox.Image = "rbxassetid://10709790644";
+		Checkbox.Image = "rbxassetid://8964489619";
 		Checkbox.ImageTransparency = 1;
 		Checkbox.ImageColor3 = Color3.fromRGB(245, 245, 245);
 		CreateRounded(Checkbox, 5);
@@ -1112,7 +1112,7 @@ function Update:Window(Config)
 			ArrowDown.AnchorPoint = Vector2.new(1, 0);
 			ArrowDown.Position = UDim2.new(1, -110, 0, 10);
 			ArrowDown.Size = UDim2.new(0, 20, 0, 20);
-			ArrowDown.Image = "rbxassetid://10709790948";
+			ArrowDown.Image = "rbxassetid://8964489619";
 			ArrowDown.ImageTransparency = 0;
 			ArrowDown.ImageColor3 = Color3.fromRGB(255, 255, 255);
 			CreateRounded(SelectItems, 5);
