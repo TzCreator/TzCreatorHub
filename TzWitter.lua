@@ -4,13 +4,13 @@ local Libary = loadstring(game:HttpGet("https://raw.githubusercontent.com/TzCrea
 workspace.FallenPartsDestroyHeight = -math.huge
 
 local Window = Libary:MakeWindow({
-    Title = "Teryous Hub | Brookhaven RP ",
-    SubTitle = "by: Tz Wizzer",
-    LoadText = "Teryous Hub loading...",
-    Flags = "TeryousHub_Broookhaven"
+    Title = "Teryous | Brookhaven RP ",
+    SubTitle = "by: Tz The Dev",
+    LoadText = "Carregando Teryous Hub",
+    Flags = "Tzub_Broookhaven"
 })
 Window:AddMinimizeButton({
-    Button = { Image = "rbxassetid://8964489619", BackgroundTransparency = 0 },
+    Button = { Image = "rbxassetid://131669852271916", BackgroundTransparency = 0 },
     Corner = { CornerRadius = UDim.new(35, 1) },
 })
 
@@ -19,9 +19,9 @@ local InfoTab = Window:MakeTab({ Title = "Info", Icon = "rbxassetid://1530913847
 
 
 InfoTab:AddSection({ "Informações do Script" })
-InfoTab:AddParagraph({ "Owner / Developer:", "Luscaa and veno." })
-InfoTab:AddParagraph({ "Colaborações:", "Blue, sukuna, Magekko, Darkness, Star, Toddy" })
-InfoTab:AddParagraph({ "Você está usando:", "Chaos Hub Brookhaven " })
+InfoTab:AddParagraph({ "Owner / Developer:", "TztheTeryous." })
+InfoTab:AddParagraph({ "Colaborações:", "SbdKing" })
+InfoTab:AddParagraph({ "Você está usando:", "Teryous Hub Brookhaven " })
 InfoTab:AddParagraph({"Your executor:", executor})
 
 InfoTab:AddSection({ "Rejoin" })
@@ -252,7 +252,7 @@ Label.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Label.BorderSizePixel = 0
 Label.Size = UDim2.new(1, 0, 0.160583943, 0)
 Label.FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal)
-Label.Text = "Bring Parts | Made by: Lusquinha_067"
+Label.Text = "Bring Parts"
 Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 Label.TextScaled = true
 Label.TextSize = 14.000
@@ -4251,17 +4251,17 @@ Tab:AddSection({"Audio Todos os Players"})
 
 -- Lista de áudios
 local audios = {
-    {Name = "Yamete Kudasai", ID = 1084944765},
+    {Name = "Yamete Kudasai", ID = 108494476595033},
     {Name = "Gritinho", ID = 5710016194},
-    {Name = "Jumpscare Horroroso", ID = 8543525334},
+    {Name = "Jumpscare Horroroso", ID = 85435253347146},
     {Name = "Áudio Alto", ID = 6855150757},
-    {Name = "Ruído", ID = 1200348771},
-    {Name = "Jumpscare 2", ID = 1106379956},
-    {Name = "Risada Da Bruxa Minecraft", ID = 1162149404},
-    {Name = "The Boiled One", ID = 1371776538},
-    {Name = "Deitei Um Ave Maria Doido", ID = 1286694240},
+    {Name = "Ruído", ID = 120034877160791},
+    {Name = "Jumpscare 2", ID = 110637995610528},
+    {Name = "Risada Da Bruxa Minecraft", ID = 116214940486087},
+    {Name = "The Boiled One", ID = 137177653817621},
+    {Name = "Deitei Um Ave Maria Doido", ID = 128669424001766},
     {Name = "Mandrake Detected", ID = 9068077052},
-    {Name = "Aaaaaaaaa", ID = 8015640596},
+    {Name = "Aaaaaaaaa", ID = 80156405968805},
     {Name = "AAAHHHH", ID = 9084006093},
     {Name = "amongus", ID = 6651571134},
     {Name = "Sus", ID = 6701126635},
@@ -4270,70 +4270,27 @@ local audios = {
     {Name = "SUS", ID = 7153419575},
     {Name = "Sonic.exe", ID = 2496367477},
     {Name = "Tubers93 1", ID = 270145703},
-    {Name = "Tubers93 2", ID = 1813180953},
+    {Name = "Tubers93 2", ID = 18131809532},
     {Name = "John's Laugh", ID = 130759239},
     {Name = "Nao sei KKKK", ID = 6549021381},
-    {Name = "Grito", ID = 8015640596},
+    {Name = "Grito", ID = 80156405968805},
     {Name = "Sus Audio", ID = 7705506391},
     {Name = "AAAH", ID = 7772283448},
-    {Name = "Gay, gay", ID = 1878664741},
+    {Name = "Gay, gay", ID = 18786647417},
     {Name = "Bat Hit", ID = 7129073354},
     {Name = "Nuclear Siren", ID = 675587093},
     {Name = "Sem ideia de nome KK", ID = 7520729342},
-    {Name = "Grito 2", ID = 9141202410},
+    {Name = "Grito 2", ID = 91412024101709},
     {Name = "Estora tímpano", ID = 268116333},
-    {Name = "Gemidão", ID = 1068354632},
-    {Name = "Toma Jack", ID = 1326036454},
-    {Name = "Pede ifood pede", ID = 1338437508},
-    {Name = "I Ghost The down", ID = 8466354388},
+    {Name = "Gemidão", ID = 106835463235574},
+    {Name = "Toma Jack", ID = 132603645477541},
+    {Name = "Pede ifood pede", ID = 133843750864059},
+    {Name = "I Ghost The down", ID = 84663543883498},
     {Name = "Compre OnLine Na shoope", ID = 8747441609},
-    {Name = "Uh Que Nojo", ID = 1034403686},
-    {Name = "Sai dai Lava Prato", ID = 1012324001},
-    {Name = "Seloko num compensa", ID = 7844247670},
-    {Name = "Bora Bill", ID = 18315746510},
-    {Name = "Fala do Daran", ID = 7902962531},
-    {Name = "Meme do Zap", ID = 9045389582},
-    {Name = "Rico do meme", ID = 7363412529},
-    {Name = "Funk do Discord", ID = 8997811505},
-    {Name = "Corra!", ID = 5978550333},
-    {Name = "VOCÊ PROMETEU MEU FILHO", ID = 4688657498},
-    {Name = "Spooky Skeleton", ID = 515669032},
-    {Name = "PÃO", ID = 8723612481},
-    {Name = "Sapo Cururu", ID = 12878095967},
-    {Name = "Ai Que Delícia Cara", ID = 6937354391},
-    {Name = "Pikachu Chocado", ID = 2815722131},
-    {Name = "Calma Jovem", ID = 6856942190},
-    {Name = "Goku Gritando", ID = 325216498},
-    {Name = "É Hoje o Dia da Alegria", ID = 1845995401},
-    {Name = "Miseravi", ID = 10152284573},
-    {Name = "Vixi Maria", ID = 6012674972},
-    {Name = "Aí que burro", ID = 4717408473},
-    {Name = "Gemidão 2", ID = 1068354635},
-    {Name = "Taca Taca Taca", ID = 7208372130},
-    {Name = "Tá Maluco", ID = 4536076621},
-    {Name = "Sai Zika", ID = 8910767570},
-    {Name = "Cadê Meu Pau", ID = 7029914777},
-    {Name = "Sou Lindão", ID = 3486081673},
-    {Name = "Eu Vou Gritar", ID = 1215202314},
-    {Name = "Gado D+", ID = 7890482043},
-    {Name = "Aff que Ódio", ID = 1086710515},
-    {Name = "Cavalo doido", ID = 2760564637},
-    {Name = "Cala Boca", ID = 476544893},
-    {Name = "Xablau", ID = 1239714379},
-    {Name = "Carro rebaixado passando", ID = 8968037355},
-    {Name = "Tome-lhe", ID = 5638916891},
-    {Name = "Ai papai para", ID = 8328441951},
-    {Name = "Esse é meu Brasil", ID = 4297226411},
-    {Name = "Rap do Lixo", ID = 6671227497},
-    {Name = "Olha o gás", ID = 6423831887},
-    {Name = "Funk proibidão", ID = 9123101563},
-    {Name = "Eu sou rica!", ID = 3971497061},
-    {Name = "Só observando", ID = 7778879012},
-    {Name = "Rindo até 2030", ID = 6453932804},
-    {Name = "Meme do Pânico", ID = 3109857885},
-    Name = "Sou Lindão", ID = 3486081673},
-    {Name = "Eu Vou Gritar", ID = 1215202314}
-})
+    {Name = "Uh Que Nojo", ID = 103440368630269},
+    {Name = "Sai dai Lava Prato", ID = 101232400175829},
+    {Name = "Seloko num compensa", ID = 78442476709262},
+}
 
 local selectedAudioID
 
